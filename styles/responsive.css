@@ -6,4 +6,28 @@
     display: block;
     align-items: center;
   }
+  .explore-travel {
+    padding: 30px 15px;
+    object-fit: cover;
+    background-size: auto;
+  }
+  .explore-travel h1 {
+    font-size: 22px;
+  }
+  .explore-travel p {
+    margin: 8px auto;
+    width: 70%;
+    font-size: 14px;
+  }
+  .travel-plan {
+    flex-direction: column;
+  }
+  .travel-plan {
+    width: 80%;
+    margin: 10px auto;
+  }
+  .travel-plan input {
+    padding: 10px;
+    width: 100%;
+  }
 }
