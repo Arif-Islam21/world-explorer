@@ -12,8 +12,6 @@
 #text-orange {
   color: #ff5400;
   text-align: center;
-  font-size: 18px;
-  font-weight: 700;
 }
 /* multi useable classes ends here */
 nav {
@@ -26,6 +24,9 @@ nav {
   align-items: center;
   gap: 1rem;
 }
+.nav-collapse {
+  display: none;
+}
 .nav-items {
   display: flex;
   justify-content: space-around;
@@ -36,4 +37,17 @@ nav {
   color: #424247;
   text-align: center;
   font-size: 18px;
+}
+.nav-icon h2 {
+  color: #131318;
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+/* navbar section done */
+/* travel explore section start here */
+.explore-travel {
+  background-image: url("../Images/Group 13 (1) (1).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 200px;
 }
