@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+/* multi useable calsses */
+.container {
+  width: 90%;
+  margin: 20px auto;
+}
+#text-orange {
+  color: #ff5400;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* multi useable classes ends here */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-icon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+}
+.nav-items a {
+  text-decoration: none;
+  color: #424247;
+  text-align: center;
+  font-size: 18px;
+}
