@@ -30,4 +30,14 @@
     padding: 10px;
     width: 100%;
   }
+  .popular-tour {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .tour-description {
+    width: 100%;
+  }
+  .tour-img {
+    width: 100%;
+  }
 }
