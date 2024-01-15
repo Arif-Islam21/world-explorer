@@ -40,4 +40,11 @@
   .tour-img {
     width: 100%;
   }
+  .footer-section {
+    padding: 30px 40px;
+  }
+  footer p {
+    width: 70%;
+    margin: 10px auto;
+  }
 }
