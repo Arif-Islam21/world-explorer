@@ -77,7 +77,7 @@ nav {
   object-fit: cover;
   border-radius: 16px;
   padding: 100px 200px;
-  height: 100vh;
+  height: 100%;
   text-align: center;
 }
 .explore-travel h1 {
@@ -171,12 +171,12 @@ nav {
   border-radius: 16px;
 }
 .destination-img p {
-  position: absolute;
+  position: relative;
   color: #fff;
   text-align: center;
   font-size: 20px;
   font-weight: 700;
-  left: 40%;
+  bottom: 50%;
 }
 #grid-1 {
   grid-column: 1 / span 6;

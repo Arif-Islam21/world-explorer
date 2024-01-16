@@ -61,6 +61,9 @@
     margin-top: 10px;
     height: 40vh;
   }
+  .destination-img p {
+    bottom: 200px;
+  }
   .chose-us-card {
     flex-direction: column;
   }
