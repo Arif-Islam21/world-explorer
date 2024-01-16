@@ -134,8 +134,35 @@ nav {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  gap: 12px;
 }
-
+.destination-section .destination-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+#grid-1 {
+  grid-column: 1 / span 6;
+}
+#grid-2 {
+  grid-column: 7 / span 6;
+}
+#grid-3 {
+  grid-column: 1 / span 4;
+}
+#grid-4 {
+  grid-column: 5 / span 5;
+}
+#grid-5 {
+  grid-column: 10 / span 3;
+}
+#grid-6 {
+  grid-column: 1 / span 5;
+}
+#grid-7 {
+  grid-column: 6 / span 7;
+}
 /* FOOTER SECTION STARTED */
 footer {
   text-align: center;
