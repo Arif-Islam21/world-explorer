@@ -106,6 +106,14 @@
     width: 100%;
     margin: 1.5rem auto;
   }
+  .perfect-place-image h5 {
+    position: relative;
+    margin: auto;
+    font-size: 1rem;
+    text-align: center;
+    color: red;
+    top: 50%;
+  }
   /* UNIQUE SECTION RESPONSIVE */
   .best-website {
     flex-direction: column;
