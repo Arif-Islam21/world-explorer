@@ -57,6 +57,23 @@
     width: 90%;
     margin: 10px auto;
   }
+  .newsletter-container {
+    flex-direction: column;
+  }
+  .newsletter-img img {
+    width: 100%;
+  }
+  .newsletter-discount {
+    height: 25%;
+    width: 50%;
+    padding: 0.8rem;
+  }
+  .newsletter-discount p {
+    font-size: 0.8rem;
+  }
+  .newsletter-discount h3 {
+    font-size: 1rem;
+  }
   .footer-section {
     padding: 30px 40px;
   }
