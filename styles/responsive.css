@@ -40,6 +40,16 @@
   .tour-img {
     width: 100%;
   }
+  .destination-description p {
+    width: 80%;
+  }
+  .destination-section {
+    display: block;
+  }
+  .destination-section .destination-img img {
+    margin-top: 10px;
+    height: 40vh;
+  }
   .footer-section {
     padding: 30px 40px;
   }

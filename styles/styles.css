@@ -130,6 +130,22 @@ nav {
   height: 100%;
 }
 /* DESTINATION SECTION STARTS HERE */
+.destination-description {
+  text-align: center;
+}
+.destination-description h2 {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.destination-description p {
+  width: 50%;
+  margin: 20px auto;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  line-height: 26px;
+}
 .destination-section {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -141,6 +157,14 @@ nav {
   height: 100%;
   object-fit: cover;
   border-radius: 16px;
+}
+.destination-img p {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  left: 40%;
 }
 #grid-1 {
   grid-column: 1 / span 6;
