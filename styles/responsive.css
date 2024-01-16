@@ -88,6 +88,19 @@
   .newsletter-discount h3 {
     font-size: 1rem;
   }
+  /* UNIQUE SECTION RESPONSIVE */
+  .best-website {
+    flex-direction: column;
+  }
+  .award-img {
+    width: 100%;
+  }
+  .award-img img {
+    border-radius: 10%;
+    transform: rotate(0deg);
+    width: 80%;
+    padding: 20px;
+  }
   .footer-section {
     padding: 30px 40px;
   }
