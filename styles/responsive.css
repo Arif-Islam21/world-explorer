@@ -88,6 +88,19 @@
   .newsletter-discount h3 {
     font-size: 1rem;
   }
+  /* BONUS SECTION RESPONSIVE STARTS HERE */
+  .icons {
+    flex-wrap: wrap;
+  }
+  .discount-row {
+    flex-direction: row;
+    padding: 10rem 1rem 1rem 1rem;
+  }
+  .discount-card {
+    width: 100%;
+    height: 60%;
+    padding: 25px;
+  }
   /* UNIQUE SECTION RESPONSIVE */
   .best-website {
     flex-direction: column;

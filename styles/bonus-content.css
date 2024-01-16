@@ -53,3 +53,7 @@
   font-weight: 800;
   margin: 1.5rem auto;
 }
+.discount-row-2 {
+  background-image: url("../Images/Group 40.png");
+  flex-direction: row;
+}
