@@ -1,0 +1,55 @@
+.deals-and-discount {
+  text-align: center;
+  margin: 50px auto;
+}
+.deals-and-discount p {
+  width: 60%;
+  margin: 10px auto;
+}
+.discount-card a {
+  text-decoration: none;
+  color: #5a5a5d;
+}
+.discount-card a i {
+  color: #ff5400;
+}
+.h4-primary {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1.5rem auto;
+}
+.discount-row {
+  background-image: url("../Images/Group 39.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 3.5rem;
+  text-align: start;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 24px auto;
+}
+.discount-card {
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  width: 45%;
+  height: 90%;
+  padding: 3rem;
+}
+.discount-card p {
+  margin: 1rem 0;
+  width: 80%;
+}
+.discount-card h4 {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 1.5rem auto;
+}
