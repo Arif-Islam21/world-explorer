@@ -30,6 +30,17 @@
     padding: 10px;
     width: 100%;
   }
+  .travel-plan button {
+    width: 100%;
+  }
+  .dropdown-input {
+    background-color: #fff;
+    border-radius: 16px;
+  }
+  .down-arrow {
+    right: 10%;
+    top: 2px;
+  }
   .popular-tour {
     flex-direction: column;
     gap: 30px;
