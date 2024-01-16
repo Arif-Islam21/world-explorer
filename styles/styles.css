@@ -49,6 +49,11 @@ nav {
   align-items: center;
   gap: 1rem;
 }
+.nav-icon h2 {
+  color: #131318;
+  font-size: 21.543px;
+  font-weight: 800;
+}
 .nav-collapse {
   display: none;
 }
@@ -283,6 +288,41 @@ nav {
   color: #fff;
   font-size: 32px;
   font-weight: 800;
+}
+/* AWARD SECTION STARTS HERE */
+.best-website {
+  display: flex;
+  background-color: rgba(189, 201, 97, 0.753);
+  background-image: url("../Images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.award-description {
+  padding: 50px;
+}
+.award-description h1 {
+  font-size: 2rem;
+}
+.award-description p {
+  font-size: 1rem;
+  margin: 10px auto;
+}
+.award-description button {
+  color: black;
+}
+.award-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  align-items: center;
+  object-fit: cover;
+  overflow: hidden;
+}
+.award-img img {
+  border-radius: 20%;
+  transform: rotate(-30deg);
+  height: 90%;
 }
 /* FOOTER SECTION STARTED */
 footer {
