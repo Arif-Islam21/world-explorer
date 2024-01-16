@@ -20,11 +20,9 @@
     font-size: 14px;
   }
   .travel-plan {
-    flex-direction: column;
-  }
-  .travel-plan {
     width: 80%;
     margin: 10px auto;
+    flex-direction: column;
   }
   .travel-plan input {
     padding: 10px;
