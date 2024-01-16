@@ -57,3 +57,31 @@
   background-image: url("../Images/Group 40.png");
   flex-direction: row;
 }
+/* PERFECT PLACE SECTION STARTS HERE */
+.perfect-place-container {
+  display: flex;
+  padding: 10px;
+}
+.perfect-place-description {
+  padding: 1rem;
+}
+.perfect-place-description h2 {
+  width: 90%;
+  margin: 1rem 0;
+}
+.perfect-place-description li {
+  margin: 1rem 0;
+}
+.perfect-place-image {
+  text-align: center;
+}
+.perfect-place-image h5 {
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  bottom: 50%;
+}
